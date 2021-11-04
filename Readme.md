@@ -84,6 +84,7 @@ ALTER TABLE CTHD DROP CONSTRAINT FK02_CTHD
 
 7. Thêm dữ liệu demo
 ```
+SET DATEFORMAT dmy
 ----------------------------- KHACHHANG ---------------------------------------
 insert into khachhang values('KH01','Nguyen Van A','731 Tran Hung Dao, Q5, TpHCM','8823451','22/10/1960','22/07/2006',13060000)
 insert into khachhang values('KH02','Tran Ngoc Han','23/5 Nguyen Trai, Q5, TpHCM','908256478','03/04/1974','30/07/2006',280000)
